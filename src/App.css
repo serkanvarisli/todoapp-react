@@ -35,10 +35,6 @@ input {
   color: red;
 }
 
-button {
-  margin: 0;
-}
-
 .dark {
   background-color: #333;
   color: #FFD56B;
@@ -92,9 +88,9 @@ button {
   border: none;
   letter-spacing: 2px;
   padding: 3px 18px;
-  color: #333;
+  color: #FFD56B;
   font-size: 16px;
-  background-color: #FFD56B;
+  background-color: #333;
   transition: .3s;
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   border-radius: 5px;
