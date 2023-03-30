@@ -1,0 +1,118 @@
+.App {
+  text-align: center;
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  background-color: #FFD56B;
+  color: #333;
+}
+
+input {
+  height: 25px;
+  padding: 5px 20px;
+  border-radius: 5px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  text-align: center;
+  margin: 10px 0;
+}
+
+::placeholder {
+  /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: black;
+  opacity: 0.7;
+  /* Firefox */
+}
+
+:-ms-input-placeholder {
+  /* Internet Explorer 10-11 */
+  color: white;
+}
+
+::-ms-input-placeholder {
+  /* Microsoft Edge */
+  color: red;
+}
+
+button {
+  margin: 0;
+}
+
+.dark {
+  background-color: #333;
+  color: #FFD56B;
+}
+
+.light {
+  background-color: #FFD56B;
+  color: #333;
+}
+
+.image {
+  width: 50px;
+  position: fixed;
+  cursor: pointer;
+  right: 15px;
+  top: 15px;
+  justify-content: right;
+  align-items: right;
+  position: absolute;
+}
+
+ul {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+li {
+  padding: 5px 20px;
+  width: 270px;
+  background-color: #939B62;
+  list-style-type: none;
+  text-align: start;
+  border-bottom: 2px solid #FF7B54;
+  margin-top: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  letter-spacing: .7px;
+}
+
+h1 {
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
+button {
+  border: none;
+  letter-spacing: 2px;
+  padding: 3px 18px;
+  color: #333;
+  font-size: 16px;
+  background-color: #FFD56B;
+  transition: .3s;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  border-radius: 5px;
+}
+
+.footer {
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: rgb(128, 128, 128, 0.5);
+  text-align: center;
+  font-family: 'Antic Slab', serif;
+  padding: auto;
+
+  position: fixed;
+}
+
+button:hover {
+  color: #FF7B54;
+  background-color: #333;
+}
