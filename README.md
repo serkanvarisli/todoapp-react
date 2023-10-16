@@ -1,6 +1,6 @@
 # React ToDo Uygulaması
 
-demo : https://serkanvarisli.github.io/todoapp/
+demo : https://serkanvarisli.github.io/todoapp-react/
 
 # Getting Started with Create React App
 
